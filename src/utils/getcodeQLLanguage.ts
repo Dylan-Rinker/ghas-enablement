@@ -29,6 +29,9 @@ export const getcodeQLLanguage = (primaryLanguage: string): string => {
     case "ruby":
       codeQLLang = "ruby";
       break;
+    case "php":
+      codeQLLang = "php";
+      break;
     default:
       codeQLLang = "no-language";
       break;
